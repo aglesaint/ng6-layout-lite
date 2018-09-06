@@ -1,5 +1,7 @@
 # ng6-layout-lite
 
+Web project starter kit including tools based on angular-cli.
+
 # Getting started
 
 1. Go to project folder and install dependencies
