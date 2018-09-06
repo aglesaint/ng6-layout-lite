@@ -1,0 +1,9 @@
+<h1>Album</h1>
+<ul>
+  <li *ngFor="let image of images$">
+    <ul>
+      <li>{{image.title}}</li>
+      <li><img src="{{image.thumbnailUrl}}"></li>
+    </ul>
+  </li>
+</ul>
