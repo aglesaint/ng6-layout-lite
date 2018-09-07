@@ -11,7 +11,7 @@ npm install
 
 2. Launch development server, and open localhost:4200 in your browser
 ```bash
-ng serve -o
+ng serve -o or npm start
 ```
 
 # Project structure
@@ -48,6 +48,7 @@ proxy.conf.js                backend proxy configuration
 * create a new project : ng new myproject --style=scss --routing
 * create a component : ng g c mycomponent
 * create a service : ng g service myservice
+* ng build --prod
 
 ## Coding guides
 
