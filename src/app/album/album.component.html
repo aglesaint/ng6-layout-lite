@@ -1,6 +1,6 @@
 <h1>Album</h1>
 <ul>
-  <li *ngFor="let image of images$">
+  <li *ngFor="let image of images$ | slice:0:3; let i=index">
     <ul>
       <li>{{image.title}}</li>
       <li><img src="{{image.thumbnailUrl}}"></li>
